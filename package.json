@@ -1,7 +1,7 @@
 {
   "name": "robofriends-starter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://nukly.github.io/robofriends-starter/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
