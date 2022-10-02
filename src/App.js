@@ -2,6 +2,7 @@ import React from 'react'
 import CardList from './components/CardList'
 import {robots} from './robots'
 import Seacrhbox from './components/Seacrhbox'
+import Scroll from './components/Scroll'
 
 
 
@@ -38,7 +39,9 @@ class App extends React.Component {
             <div className='tc'>
                 <h1>Robofriends</h1>
                 <Seacrhbox searchChange={this.onSearchChange}/>
-                <CardList robots={filteredRobots}/>
+                <Scroll>
+                    <CardList robots={filteredRobots}/>
+                </Scroll>
             </div>
           )
     }
